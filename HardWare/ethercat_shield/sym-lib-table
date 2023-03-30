@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "ECAT")(type "KiCad")(uri "E:/RM/EtherCAT/clear_drive_hw/lib/ECAT.kicad_sym")(options "")(descr ""))
+  (lib (name "FOC")(type "KiCad")(uri "E:/RM/EtherCAT/clear_drive_hw/lib/FOC.kicad_sym")(options "")(descr ""))
+)
