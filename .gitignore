@@ -1,7 +1,9 @@
-/USB2XXX/
-/USB2XXX-backups/
-*.pdf
-*.zip
+/EtherCAT2XXX-backups/
+/gerber/
+/production/
 
 fp-info-cache
+
+*.zip
+*.pdf
 *.kicad_prl
