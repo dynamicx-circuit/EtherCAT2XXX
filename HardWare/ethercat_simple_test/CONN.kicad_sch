@@ -2511,31 +2511,6 @@
     (uuid f443d142-b38e-4de3-83b7-37665075c43d)
   )
 
-  (symbol (lib_id "power:Earth") (at 151.13 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 093846bc-d244-42a4-8a4e-7eb8393700a7)
-    (property "Reference" "#PWR0175" (at 151.13 143.51 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 151.13 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 151.13 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 151.13 137.16 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 59f0b614-a65b-49aa-abb4-ac9d6077b886))
-    (instances
-      (project "EtherCAT2XXX"
-        (path "/8e0527a1-64cc-4c21-af5a-5910f4c387cc/b63d0307-1270-45fb-bc26-471a0edd624a"
-          (reference "#PWR0175") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 40.64 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0baa2bb2-0950-45e0-b3a2-c9e0c4d1beb3)
@@ -2869,6 +2844,31 @@
       (project "EtherCAT2XXX"
         (path "/8e0527a1-64cc-4c21-af5a-5910f4c387cc/b63d0307-1270-45fb-bc26-471a0edd624a"
           (reference "C22") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 151.13 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5fdfd80b-006c-4f1a-a47f-d51496c3eea9)
+    (property "Reference" "#PWR01" (at 151.13 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 153.035 138.909 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 151.13 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 151.13 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9b18d1b1-6547-45d2-a5f3-7f428b880c16))
+    (instances
+      (project "EtherCAT2XXX"
+        (path "/8e0527a1-64cc-4c21-af5a-5910f4c387cc/b63d0307-1270-45fb-bc26-471a0edd624a"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
