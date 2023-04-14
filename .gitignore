@@ -1,6 +1,7 @@
-/EtherCAT2XXX-backups/
-/gerber/
-/production/
+HardWare/ethercat_simple_test/EtherCAT2XXX-backups/
+HardWare/ethercat_simple_test/production/
+HardWare/ethercat/EtherCAT2XXX-backups/
+HardWare/ethercat/production/
 
 fp-info-cache
 
